@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/haarspriet.png">
+    <meta name="author" content="Timon ten Hoeve">
+    <meta name="description" content="Kappers zaak de Haarspriet, een kapsalon in Leeuwarden. Kom langs of maak een afspraak!">
+    <meta name="keywords" content="kapper, kappersalon, haar, kapsalon, Haarspriet, knipbeurt, knippen, afspraken, afspraak, afspraak maken, contact, contact opnemen, ">
+</head>
+<body class="body3 body-contact">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-primary" data-bs-theme="dark" class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"><img src="images/haarspriet.png" alt="logo" class="navbar-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- dit laat home en crew in het midden staan -->
+      <div class="collapse navbar-collapse"></div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link font-grote" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-grote" href="producten.html">Producten</a>
+          </li>
+        <!-- </ul> -->
+        <!-- <ul class="navbar-nav ml-auto mb-2 mb-lg-0"> -->
+            <li class="nav-item">
+                <a class="nav-link font-grote active" href="contact.html">Plan een afspraak</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<center>
+  <div class="contact">
+    <div class="contact1">
+    <form action="contact.html" class="form"></form>
+      <label for="fname">Voornaam:</label>
+      <br>
+      <input type="text" id="fname" name="firstname" placeholder="Uw naam">
+      <br>
+      <label for="lname">Achternaam:</label>
+      <br>
+      <input type="text" id="lname" name="lastname" placeholder="Uw achternaam">
+      <br>
+      <label for="mail">E-mail:</label>
+      <br>
+      <input type="text" id="mail" name="mail" placeholder="Uw mail">
+      <br>
+      <label for="time">Datum en tijd:</label>
+      <br>
+      <input type="datetime-local" id="time" name="time">
+      <br>
+      <label for="voorkeur">Kies uw product:</label>
+      <br>
+      <select id="voorkeur" name="voorkeur">
+        <option value="hjknip0-13">Heren knipbeurt (0 t/m 13) €15</option>
+        <option value="hjknip13-18">Heren knipbeurt (13 t/m 18) €22,50</option>
+        <option value="hvknip">Heren knipbeurt €27,50</option>
+        <option value="hvfknip">Heren knipbeurt en föhnen €30</option>
+        <option value="hvfwknip">Heren knipbeurt en wassen €37,50</option>
+        <option value="hknippenrondom">Knippen alleen rondom (man) €10</option>
+        <option value="vjknip0-13">Vrouwen knipbeurt (0 t/m 13) €17,50</option>
+        <option value="vjknip13-18">Vrouwen knipbeurt (13 t/m 18) €25</option>
+        <option value="vvknip">Vrouwen knipbeurt €30</option>
+        <option value="vvfknip">Vrouwen knipbeurt en föhnen €32,50</option>
+        <option value="vvfwknip">Vrouwen knipbeurt en wassen €40</option>
+        <option value="vknippenrondom">Knippen alleen rondom (vrouw) €12,50</option>
+      </select>
+      <br>
+      <label for="voorkeur">Voorkeur voor medewerker:</label>
+      <br>
+      <select id="voorkeur" name="voorkeur">
+        <option value="jonne">Jonne</option>
+        <option value="wytze">Wytze</option>
+        <option value="rik">Rik</option>
+        <option value="milan">Milan</option>
+        <option value="xander">Xander</option>
+        <option value="cedric">Cedric</option>
+        <option value="joran">Joran</option>
+        <option value="timon">Timon</option>
+      </select>
+      <a href="contact.html" class="afspraak7"><div class="afspraak8"><p class="afspraak9">Stuur</p></div></a>
+  </div>
+  </div>
+</center>
+
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d149.37002811858932!2d5.800615540926593!3d53.201342863313464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c8fe82fe3677b1%3A0x4a8c5c6b45a3ad36!2sWEareGRUTSK!5e0!3m2!1sen!2snl!4v1676457373189!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-map"></iframe>
+</center>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
